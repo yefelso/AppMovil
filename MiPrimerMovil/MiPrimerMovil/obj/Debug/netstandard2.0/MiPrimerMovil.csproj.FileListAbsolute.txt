@@ -1,0 +1,16 @@
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\bin\Debug\netstandard2.0\MiPrimerMovil.deps.json
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\bin\Debug\netstandard2.0\MiPrimerMovil.dll
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\bin\Debug\netstandard2.0\ref\MiPrimerMovil.dll
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\bin\Debug\netstandard2.0\MiPrimerMovil.pdb
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MiPrimerMovil.csproj.AssemblyReference.cache
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MiPrimerMovil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MiPrimerMovil.AssemblyInfoInputs.cache
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MiPrimerMovil.AssemblyInfo.cs
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MiPrimerMovil.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MiPrimerMovil.dll
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\refint\MiPrimerMovil.dll
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\MiPrimerMovil.pdb
+C:\Users\Alumno\Downloads\yefell\MiPrimerMovil\MiPrimerMovil\MiPrimerMovil\obj\Debug\netstandard2.0\Calcualtor.xaml.g.cs

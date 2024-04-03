@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|c:\\users\\alumno\\downloads\\yefell\\miprimermovil\\miprimermovil\\miprimermovil\\calcualtor.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|solutionrelative:miprimermovil\\miprimermovil\\calcualtor.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|c:\\users\\alumno\\downloads\\yefell\\miprimermovil\\miprimermovil\\miprimermovil\\calcualtor.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|solutionrelative:miprimermovil\\miprimermovil\\calcualtor.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|c:\\users\\alumno\\downloads\\yefell\\miprimermovil\\miprimermovil\\miprimermovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|solutionrelative:miprimermovil\\miprimermovil\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|c:\\users\\alumno\\downloads\\yefell\\miprimermovil\\miprimermovil\\miprimermovil\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|solutionrelative:miprimermovil\\miprimermovil\\mainpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|c:\\users\\alumno\\downloads\\yefell\\miprimermovil\\miprimermovil\\miprimermovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|solutionrelative:miprimermovil\\miprimermovil\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|c:\\users\\alumno\\downloads\\yefell\\miprimermovil\\miprimermovil\\miprimermovil\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{0A5DF45E-BF06-4C42-8310-7F7D540E5E6A}|MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil.csproj|solutionrelative:miprimermovil\\miprimermovil\\app.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calcualtor.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml.cs",
+              "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml.cs",
+              "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:47:21.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml.cs",
+              "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:24:04.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml",
+              "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\MainPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T17:23:56.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Calcualtor.xaml",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml",
+              "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml",
+              "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml",
+              "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T17:39:21.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\App.xaml",
+              "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\App.xaml",
+              "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\App.xaml",
+              "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\App.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-03T17:19:43.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\App.xaml.cs",
+              "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\App.xaml.cs",
+              "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:19:38.358Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
