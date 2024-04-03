@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml.cs",
               "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml.cs",
               "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAiAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T17:47:21.852Z",
               "EditorCaption": ""
@@ -83,7 +83,7 @@
               "RelativeDocumentMoniker": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml",
               "ToolTip": "C:\\Users\\Alumno\\Downloads\\yefell\\MiPrimerMovil\\MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml",
               "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\Calcualtor.xaml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAkAAABLAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-04-03T17:39:21.621Z",
               "EditorCaption": ""
@@ -98,7 +98,8 @@
               "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\App.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-03T17:19:43.202Z"
+              "WhenOpened": "2024-04-03T17:19:43.202Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -110,7 +111,8 @@
               "RelativeToolTip": "MiPrimerMovil\\MiPrimerMovil\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-03T17:19:38.358Z"
+              "WhenOpened": "2024-04-03T17:19:38.358Z",
+              "EditorCaption": ""
             }
           ]
         }

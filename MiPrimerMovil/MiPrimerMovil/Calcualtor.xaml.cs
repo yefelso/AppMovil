@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,15 +10,20 @@ namespace MiPrimerMovil
         string currentNumber = string.Empty;
         string operation = string.Empty;
         double result = 0;
+        string operacionActual = "";
+
         public Calcualtor()
         {
             InitializeComponent();
         }
+
+        // Método de control de eventos para los botones de números
         private void Number_Clicked(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             currentNumber += button.Text;
             resultLabel.Text = currentNumber;
+            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
         }
 
         // Método de control de eventos para los botones de operadores
@@ -33,6 +33,7 @@ namespace MiPrimerMovil
             operation = button.Text;
             result = double.Parse(currentNumber);
             currentNumber = string.Empty;
+            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
         }
 
         // Método de control de eventos para el botón "="
@@ -58,6 +59,7 @@ namespace MiPrimerMovil
                     break;
             }
             resultLabel.Text = result.ToString();
+            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
         }
 
         // Método de control de eventos para el botón "C" (clear)
@@ -67,6 +69,14 @@ namespace MiPrimerMovil
             operation = string.Empty;
             result = 0;
             resultLabel.Text = "0";
+            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
+        }
+
+        // Método para actualizar el contenido del Label "Ejecutable"
+        private void UpdateEjecutableLabel()
+        {
+            operacionActual = currentNumber + " " + operation;
+            Ejecutable.Text = operacionActual;
         }
     }
 }
