@@ -1,10 +1,8 @@
 ﻿using System;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MiPrimerMovil
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Calcualtor : ContentPage
     {
         string currentNumber = string.Empty;
@@ -17,29 +15,92 @@ namespace MiPrimerMovil
             InitializeComponent();
         }
 
-        // Método de control de eventos para los botones de números
         private void Number_Clicked(object sender, EventArgs e)
         {
             Button button = (Button)sender;
             currentNumber += button.Text;
             resultLabel.Text = currentNumber;
-            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
+            Ejecutable.Text += button.Text; // Agregar el número al label Ejecutable
         }
 
-        // Método de control de eventos para los botones de operadores
-        private void Operator_Clicked(object sender, EventArgs e)
+        private void punto_Clicked(object sender, EventArgs e)
         {
-            Button button = (Button)sender;
-            operation = button.Text;
-            result = double.Parse(currentNumber);
-            currentNumber = string.Empty;
-            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
+            if (!currentNumber.Contains("."))
+            {
+                currentNumber += ".";
+                resultLabel.Text = currentNumber;
+                Ejecutable.Text += "."; // Agregar el punto decimal al label Ejecutable
+            }
         }
 
-        // Método de control de eventos para el botón "="
+        private void Clear_Clicked(object sender, EventArgs e)
+        {
+            currentNumber = string.Empty;
+            operation = string.Empty;
+            result = 0;
+            resultLabel.Text = "0";
+            operacionActual = string.Empty;
+            Ejecutable.Text = string.Empty; // Limpiar el label Ejecutable
+        }
+
+        private void Add_Clicked(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(currentNumber))
+            {
+                PerformOperation();
+                operation = "+";
+                Ejecutable.Text += " + "; // Agregar el operador al label Ejecutable
+            }
+        }
+
+        private void Subtract_Clicked(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(currentNumber))
+            {
+                PerformOperation();
+                operation = "-";
+                Ejecutable.Text += " - "; // Agregar el operador al label Ejecutable
+            }
+        }
+
+        private void Multiply_Clicked(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(currentNumber))
+            {
+                PerformOperation();
+                operation = "*";
+                Ejecutable.Text += " * "; // Agregar el operador al label Ejecutable
+            }
+        }
+
+        private void Divide_Clicked(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(currentNumber))
+            {
+                PerformOperation();
+                operation = "/";
+                Ejecutable.Text += " / "; // Agregar el operador al label Ejecutable
+            }
+        }
+
         private void Equal_Clicked(object sender, EventArgs e)
         {
-            double newNumber = double.Parse(currentNumber);
+            PerformOperation();
+            resultLabel.Text = result.ToString();
+            currentNumber = result.ToString();
+            operation = string.Empty;
+            operacionActual = string.Empty;
+            Ejecutable.Text = operacionActual;
+        }
+
+        private void PerformOperation()
+        {
+            double newNumber = 0;
+            if (!string.IsNullOrEmpty(currentNumber))
+            {
+                newNumber = double.Parse(currentNumber);
+            }
+
             switch (operation)
             {
                 case "+":
@@ -49,34 +110,53 @@ namespace MiPrimerMovil
                     result -= newNumber;
                     break;
                 case "*":
-                    result *= newNumber;
+                    if (result == 0)
+                        result = newNumber;
+                    else
+                        result *= newNumber;
                     break;
                 case "/":
                     if (newNumber != 0)
                         result /= newNumber;
                     else
-                        DisplayAlert("Error", "No se puede dividir por cero", "OK");
+                    {
+                        DisplayAlert("Recordatorio", "No se puede dividir por cero", "OK");
+                        return;
+                    }
+                    break;
+                default:
+                    result = newNumber;
                     break;
             }
-            resultLabel.Text = result.ToString();
-            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
-        }
 
-        // Método de control de eventos para el botón "C" (clear)
-        private void Clear_Clicked(object sender, EventArgs e)
-        {
             currentNumber = string.Empty;
-            operation = string.Empty;
-            result = 0;
-            resultLabel.Text = "0";
-            UpdateEjecutableLabel(); // Actualizar el Label Ejecutable
         }
 
-        // Método para actualizar el contenido del Label "Ejecutable"
-        private void UpdateEjecutableLabel()
+        private void Borrar_Clicked(object sender, EventArgs e)
         {
-            operacionActual = currentNumber + " " + operation;
-            Ejecutable.Text = operacionActual;
+            if (!string.IsNullOrEmpty(currentNumber))
+            {
+                currentNumber = currentNumber.Remove(currentNumber.Length - 1);
+                resultLabel.Text = currentNumber;
+            }
+            else if (!string.IsNullOrEmpty(operacionActual))
+            {
+                if (operacionActual.EndsWith(" ") && operacionActual.Length > 1)
+                {
+                    operation = string.Empty;
+                    operacionActual = operacionActual.Remove(operacionActual.Length - 3);
+                }
+                else
+                {
+                    operacionActual = operacionActual.Remove(operacionActual.Length - 1);
+                }
+                Ejecutable.Text = operacionActual;
+            }
+        }
+
+        private async void Regresar_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopToRootAsync();
         }
     }
 }

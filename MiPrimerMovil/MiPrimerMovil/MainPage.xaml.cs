@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using static MiPrimerMovil.App;
 
 namespace MiPrimerMovil
 {
@@ -17,7 +18,7 @@ namespace MiPrimerMovil
         private async void Calculadora_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Calcualtor());
-            await DisplayAlert("Mensaje", "Abriendo la calculadora...", "OK");
+            await DisplayAlert("Mensaje", "Abriendo la calculadora...", "Continuar");
 
         }
 
@@ -27,6 +28,9 @@ namespace MiPrimerMovil
             // Por ejemplo, puedes cerrar la aplicación o ejecutar cualquier otra lógica relacionada con la salida
             // Este es solo un ejemplo:
             DisplayAlert("Mensaje", "Cerrando la aplicación...", "OK");
+            {
+                DependencyService.Get<ICloseApp>().Close();
+            }
         }
     }
 }

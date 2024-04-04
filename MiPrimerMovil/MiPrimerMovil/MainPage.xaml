@@ -7,10 +7,10 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="Welcome to Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Welcome to Colculator!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
-        <Label Text="Start developing now" FontSize="Title" Padding="30,10,30,10"/>
-        <Label Text="Make changes to your XAML file and save to see your UI update in the running app with XAML Hot Reload. Give it a try!" FontSize="16" Padding="30,0,30,0"/>
+        <Label Text="Bienvenido" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="¡Bienvenidos a nuestra aplicación de calculadora! Esperamos que esta herramienta sea de gran utilidad para tus necesidades matemáticas diarias. Estamos encantados de ofrecerte una experiencia intuitiva y eficiente para realizar cálculos rápidos y precisos. Siempre nos esforzamos por proporcionar una plataforma que facilite tus tareas numéricas y te ayude a alcanzar tus objetivos con facilidad. ¡Gracias por elegir nuestra aplicación y esperamos que disfrutes de todas las funcionalidades que tenemos para ofrecerte!" FontSize="16" Padding="30,0,30,0"/>
         <Label Text="Bienvenido a Tu primera Aplicacion Movil" FontSize="16" Padding="30,24,30,0"/>
 
         <!-- Botones -->

@@ -12,6 +12,10 @@ namespace MiPrimerMovil
 
             MainPage = new NavigationPage(new MainPage());
         }
+        public interface ICloseApp
+        {
+            void Close();
+        }
 
         protected override void OnStart()
         {
